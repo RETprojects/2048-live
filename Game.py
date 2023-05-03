@@ -23,9 +23,9 @@ class Game(tk.Frame):
         self.mainloop()
 
     Color_EmptyCell = "#ffd5b5"
-    Font_ScoreLabel = ("Verdana", 24)
-    Font_Score = ("Helvetica", 48, "bold")
-    Font_GameOver = ("Helvetica", 48, "bold")
+    Font_ScoreLabel = ("Comic Sans MS", 24)
+    Font_Score = ("Comic Sans MS", 48, "bold")
+    Font_GameOver = ("Comic Sans MS", 48, "bold")
     Font_Color_GameOver = "#ffffff"
     Winner_BG = "#ffcc00"
     Color_Background = "#a39489"
@@ -46,31 +46,31 @@ class Game(tk.Frame):
     }
  
     Color_CellNumber = {
-        2: "#695c57",
-        4: "#695c57",
-        8: "#ffffff",
-        16: "#ffffff",
-        32: "#ffffff",
-        64: "#ffffff",
-        128: "#ffffff",
-        256: "#ffffff",
-        512: "#ffffff",
-        1024: "#ffffff",
-        2048: "#ffffff"
+        2: "blue",
+        4: "blue",
+        8: "blue",
+        16: "blue",
+        32: "blue",
+        64: "blue",
+        128: "blue",
+        256: "blue",
+        512: "blue",
+        1024: "blue",
+        2048: "blue"
     }
  
     Fonts_CellNumber = {
-        2: ("Helvetica", 55, "bold"),
-        4: ("Helvetica", 55, "bold"),
-        8: ("Helvetica", 55, "bold"),
-        16: ("Helvetica", 50, "bold"),
-        32: ("Helvetica", 50, "bold"),
-        64: ("Helvetica", 50, "bold"),
-        128: ("Helvetica", 45, "bold"),
-        256: ("Helvetica", 45, "bold"),
-        512: ("Helvetica", 45, "bold"),
-        1024: ("Helvetica", 40, "bold"),
-        2048: ("Helvetica", 40, "bold"),
+        2: ("Comic Sans MS", 55, "bold"),
+        4: ("Comic Sans MS", 55, "bold"),
+        8: ("Comic Sans MS", 55, "bold"),
+        16: ("Comic Sans MS", 50, "bold"),
+        32: ("Comic Sans MS", 50, "bold"),
+        64: ("Comic Sans MS", 50, "bold"),
+        128: ("Comic Sans MS", 45, "bold"),
+        256: ("Comic Sans MS", 45, "bold"),
+        512: ("Comic Sans MS", 45, "bold"),
+        1024: ("Comic Sans MS", 40, "bold"),
+        2048: ("Comic Sans MS", 40, "bold"),
     }
 
     def make_GUI(self):
